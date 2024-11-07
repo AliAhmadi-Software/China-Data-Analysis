@@ -44,17 +44,118 @@ The `requirements.txt` file contains the necessary libraries for this project.
 
 ## Data Description
 
-The main dataset file contains the following columns:
+<center>
+<table style="direction: rtl;align: center; text-align: justify;line-height:200%;font-family:vazir;font-size:medium">
+  <tr>
+      <td><code>Unnamed: 0</code></td><td>نمایه‌ی داده‌هاست که نیازی به آن نداریم و باید حذف شود.</td>
+</tr>
 
-| Column         | Description                                                                                     |
-|----------------|-------------------------------------------------------------------------------------------------|
-| InvoiceNumber  | A unique 6-digit number assigned to each invoice. If this number starts with the letter 'C,' it indicates that the invoice is canceled. |
-| ProductCode    | A unique 5-digit number assigned to each product type.                                          |
-| ProductName    | The name of the product.                                                                        |
-| Quantity       | The quantity ordered for each product in the invoice.                                           |
-| InvoiceDate    | The date the invoice was created.                                                               |
-| UnitPrice      | The price per unit for each item.                                                               |
-| CustomerId     | A unique 5-digit number assigned to each customer.                                              |
-| Country        | The customer's country of residence.                                                            |
+  <tr>
+      <td><code>url</code></td><td>لینک معامله</td>
+</tr>
+ 
+
+<tr>
+      <td><code>id</code></td><td>شناسه‌ی معامله</td>
+</tr>
+ 
+<tr>
+      <td><code>Lng</code></td><td>طول جغرافیایی خانه‌ی معامله شده</td>
+</tr>
+ 
+  
+<tr>
+      <td><code>Lat</code></td><td>عرض جغرافیایی خانه‌ی معامله شده</td>
+</tr>
+ 
+  
+<tr>
+      <td><code>Cid</code></td><td>شناسه‌ی خریدار</td>
+</tr>
+ 
+       
+ 
+<tr>
+      <td><code>tradeTime</code></td><td>زمان انجام معامله</td>
+</tr>    
+
+ 
+<tr>
+      <td><code>DOM</code></td><td>تعداد روزی که از زمان گذاشتن آگهی خانه می‌گذرد.</td>
+</tr>    
+
+<tr>
+      <td><code>totalPrice</code></td><td>قیمتی که خانه به فروش رفته است.</td>
+</tr>    
+  
+<tr>
+      <td><code>square</code></td><td>متراژ خانه</td>
+</tr>       
+
+<tr>
+      <td><code>livingRoom</code></td><td>تعداد اتاق نشیمن</td>
+</tr>       
+
+
+    
+<tr>
+      <td><code>drawingRoom</code></td><td>تعداد اتاق پذیرایی</td>
+</tr>       
+
+    
+    
+<tr>
+      <td><code>kitchen</code></td><td>تعداد آشپزخانه</td>
+</tr>       
+
+        
+<tr>
+      <td><code>bathRoom</code></td><td>تعداد حمام</td>
+</tr>       
+
+
+<tr>
+      <td><code>floor</code></td><td>طبقه و ارتفاع خانه</td>
+</tr>       
+
+    
+<tr>
+      <td><code>constructionTime</code></td><td>سال ساخت خانه</td>
+</tr>       
+  
+  
+    
+<tr>
+      <td><code>renovationCondition</code></td><td>وضعیت نوسازی خانه</td>
+</tr>       
+  
+    
+<tr>
+      <td><code>buildingStructure</code></td><td>ساختار خانه</td>
+</tr>       
+  
+
+<tr>
+      <td><code>ladderRatio</code></td><td>طبقه و ارتفاع خانه</td>
+</tr>             
+  
+<tr>
+      <td><code>elevator</code></td><td>خانه آسانسور دارد یا خیر</td>
+</tr>       
+  
+  
+<tr>
+      <td><code>subway</code></td><td>خانه به مترو دسترسی دارد یا خیر</td>
+</tr>    
+    
+  
+<tr>
+      <td><code>district</code></td><td>منطقه‌ای که خانه در آن قرار دارد</td>
+</tr>    
+    
+
+</table>
+
+</center>                                         |
 
 This table provides an overview of the data columns used in the analysis.
